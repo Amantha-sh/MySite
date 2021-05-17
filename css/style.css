@@ -1,0 +1,182 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: f4f4f4;
+}
+
+/* Globle*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+} 
+
+.dark{
+    padding: 10px;
+    background: #35424a;
+    color: aliceblue;
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header*/
+header{
+    background:#35424a;
+    color:cornsilk;
+    padding: 30px;
+    min-height: 70px;
+    border: bottom #e8491d 10px solid;
+}
+
+header a{
+    color: cornsilk;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 40px;
+}
+
+header .highlight, header .current a{
+    color: darkorange;
+    font-weight: bold;
+}
+
+header a{
+    color: #666;
+    font-weight: bold;
+}
+
+/* Showcase */
+#showcase {
+    min-height: 600px;
+    min-width: 400px;
+    background: url(../img/20170129_115726.jpg) no-repeat 200px;
+    padding: 3%;
+    text-align: center;
+    color: azure;
+}
+
+#showcase h1{
+    margin-top: 160px;
+    font-size: 35px;
+}
+
+#showcase p{
+    font-size: 20px;
+    color:aliceblue;
+}
+
+/* Newsletter*/
+
+#newsletter{
+    background:#35424a;
+    color:cornsilk;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+#newsletter h1{
+    margin-top: -2px;
+    float: left;
+
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 10px;
+}
+
+#newsletter input[type ="email"]{
+    padding: 4px;
+    height: 20px;
+    width: 200px;
+}
+
+#newsletter button{
+    background: #e8491d;
+    height: 30px;
+    color: aliceblue;
+}
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    width: 30%;
+    text-align:center;
+    padding: 12px;
+    margin-left: 10px;
+}
+
+/* Sidebar */
+aside#Sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+
+}
+
+/* Main col*/
+
+
+footer{
+    padding: 20px;
+    color: aliceblue;
+    background:#35424a;
+    text-align: center;
+}
+
+article#main-col{
+    float: left;
+    width: 60%;
+}
+
+.card{
+    text-align: center;
+    margin: 20px;
+    float: left;
+}
+
+#link{
+    color:beige;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  #add{
+      padding-left: 30px;
+  }
+
+  #blog{
+    padding-left: 30px;
+  }
